@@ -8,3 +8,9 @@ editor:
     - link: /usr/bin/editor
     - path: /usr/bin/vim
     - priority: 100
+
+editor_set:
+  alternatives.set:
+    - name: editor
+    - path: /usr/bin/vim
+
